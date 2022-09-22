@@ -15,7 +15,6 @@ function createGallery(galleryItems) {
     })
     .join("");
 }
-// console.log(markup);
 imageConteiner.addEventListener("click", onClickImage);
 const lightbox = new SimpleLightbox(".gallery a", {
   captionsData: "alt",
